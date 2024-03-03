@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# RAGEBGC-UI
+Components for RAGE: Battleground Chronicle's UI.
+
+## What this is for
+We've made the RAGEBGC UI Open-Source so that people could have an example on how to create UI for RAGEBGC within their creations/gamemodes. 
+
+## Libraries Used
+- Coherent Gameface
+- Daisy UI 
+- React
+- Sass (SCSS)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
