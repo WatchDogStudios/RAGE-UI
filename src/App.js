@@ -4,6 +4,7 @@ import wds from './assets/images/wds.png'
 import { pm } from 'postmessage-polyfill';
 import { fetch as fetchPolyfill } from 'whatwg-fetch';
 import RGE from './core/components/rgecardcodepen'
+import RGERadio from './core/components/rgeradiobutton'
 
 const originalInterval = window.setInterval;
 window.setInterval = function (callback, delay = 0) {
@@ -31,7 +32,9 @@ function App() {
           className="App-greeting"
         >
           Hello from Coherent Labs & WD Studios!
-          <RGE
+        </h1>
+      </header>
+            <RGE
             title={"Soucles Base"}
             subcontent={"WD Studios"}
             image_user={wds}
@@ -40,9 +43,12 @@ function App() {
             comments="0"
             views="4304"
             />
-        </h1>
-      </header>
-
+          <RGERadio 
+          button_name="HOME" 
+          button_toprightname="R" 
+          primary_color="blue" 
+          shadow_color="rgba(0,0,200,0.3)"
+          />
     </div>
   );
 }
