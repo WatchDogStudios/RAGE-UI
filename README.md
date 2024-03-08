@@ -5,7 +5,7 @@ Components for RAGE: Battleground Chronicle's UI.
 We've made the RAGEBGC UI Open-Source so that people could have an example on how to create UI for RAGEBGC within their creations/gamemodes. 
 
 ## Libraries Used
-- Coherent Gameface
+- ~~Coherent Gameface~~ Now using Ultralight
 - Daisy UI 
 - React
 - Sass (SCSS)
